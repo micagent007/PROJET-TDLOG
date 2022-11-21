@@ -1,0 +1,13 @@
+Idées TDLOG :
+
+-Calcul de courbe bourse (ia prédiction des courbes):
+
+
+interface graphique affichage (prix/unité)
+interface web prix d'une unité
+calcul des courbes
+temps d'actualisation
+Python ou C++
+HTML/(CSS)/(Php)
+
+epolack
