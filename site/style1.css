@@ -1,0 +1,25 @@
+.centre{
+  text-align: center;
+}
+
+body{
+  background-color: rgb(235, 129, 15);
+}
+
+.head_title{
+  font-size: 100px;;
+  color: aqua;
+}
+
+.link_style{
+  font-size: 50px;
+  color: crimson;
+}
+
+.page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
