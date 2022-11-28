@@ -1,0 +1,66 @@
+.premiere
+{
+    color: blue;
+    font-family: 'Segoe UI';
+}
+
+p
+{
+    width: 70%; /* On a indiqué une largeur (obligatoire) */
+}
+
+
+body
+{
+    background:url("images/mur.png") fixed;
+}
+
+h1
+{
+    margin: auto;
+    text-shadow: 2px 2px 4px black;
+    width: 50%;
+}
+
+h2
+{
+    text-shadow: 2px 2px 4px black;
+    width: 60%;
+}
+
+.choix
+{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageflottante
+{
+    float: left;
+    width: 10%;
+    margin-left: 10%;
+    margin-right: 2%;
+
+}
+  
+.dessous
+{
+    clear: both;
+}
+
+
+.retour
+{
+	position: center ;
+	border: 1px solid #ff0000;
+    display: block;
+	left: 10px ;
+	color: #000000;
+	margin-left: 60% ;
+    margin-right: auto ;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+    text-align:center;
+}
