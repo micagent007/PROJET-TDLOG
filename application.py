@@ -2,6 +2,9 @@ import model
 import random as rd
 import beer_load
 
+init_price={}
+for i in range(len(beer_load.beer_list)):
+    init_price[beer_load.beer_list[i].get_name()]=beer_load.beer_list[i].get_price()
 
             
         
@@ -10,10 +13,10 @@ import beer_load
 
 #-------------------------------------------------------------------------------------------------------
 
-def fonction_de_conso(beers, tab):
+def fonction_de_conso(beers, tab, init_p):
     consos={}
     for beer in beers :
-        consos[beer.get_name()]=int(rd.randint(0,100)/tab.prices[tab.beers[beer.get_name()]][tab.iter]+0.5)
+        consos[beer.get_name()]=int(rd.randint(0,100)/tab.prices[tab.beers[beer.get_name()]][tab.iter]*init_p[beer.get_name()]+0.5)
     return consos
 
 #début changement pour ctrl z
@@ -58,7 +61,7 @@ for beer in beers:
 
 for k in range(300):
 
-    consos=fonction_de_conso(beer_load.beer_list,beer_load.tab)
+    consos=fonction_de_conso(beer_load.beer_list,beer_load.tab,init_price)
     beer_load.tab.adjst_conso(consos)
     model.fonction_model_1(beer_load.tab,beer_load.beer_list)
 
