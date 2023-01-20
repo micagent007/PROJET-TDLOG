@@ -13,7 +13,7 @@ import beer_load
 def fonction_de_conso(beers, tab):
     consos={}
     for beer in beers :
-        consos[beer.get_name()]=rd.randint(0,100)/tab.prices[tab.beers[beer.get_name()]][tab.iter]
+        consos[beer.get_name()]=int(rd.randint(0,100)/tab.prices[tab.beers[beer.get_name()]][tab.iter]+0.5)
     return consos
 
 #début changement pour ctrl z
