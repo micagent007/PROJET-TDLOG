@@ -29,39 +29,40 @@ class beer:
 
 #-------------------------------------------------------------------------------------------------------
 
-colors=['r','g','b','c','m','y','k','orange']
+colors=['red','green','blue','c','m','yellow','black','orange']
 
 
 
 class price_table:
     
     def __init__(self):
-        self.prices=[] #tableau des prix (liste de listes)
-        self.beers={} #dictionnaire relaint une biere a sa ligne de prix
+        self.prices={}
+
+        self.beers=[] #dictionnaire relaint une biere a sa ligne de prix
         self.beers_colors={} #couleur des bieres sur les courbes
         self.lim=0 #affichage
-        self.conso=[] #achats
+        self.conso={} #achats
         self.iter = 0 #à quelle itération de l update des prix est on ?
         self.nb_beers = 0
         self.alpha=0.2 #coef de prise en compte
         
     def add_beer(self,beer):
-        if not beer.get_name() in self.beers: #on ne rajoute pas une biere deja presente
+        if not beer in self.beers: #on ne rajoute pas une biere deja presente
             
-            self.beers[beer.get_name()]=len(self.prices)
-            self.beers_colors[beer.get_name()]=colors[self.beers[beer.get_name()]]
+            self.beers.append(beer)
+            self.beers_colors[beer.get_name()]=colors[self.nb_beers]
             self.nb_beers+=1
 
-            self.conso.append([0,0])
+            self.conso[beer.get_name()]=[0,0] #[0]conso totale, [1] actuelle
             
             if self.nb_beers == 1: #on regarde si la biere est ajoutee des le debut ou non
-                self.prices.append([beer.get_price()])
+                self.prices[beer.get_name()]=[beer.get_price()]
                 
             else:
                 beer_prices=[None for k in range(self.iter)]
                         #None pour representer que la biere n'existait pas auparavant
                 beer_prices.append(beer.get_price())
-                self.prices.append(beer_prices)
+                self.prices[beer.get_name()]=beer_prices
 
                 
             if beer.get_price()>self.lim :
@@ -73,9 +74,9 @@ class price_table:
             self.add_beer(beers[i])
         return
     
-    def adjst_prices(self,beers_list):
-        for beer in beers_list:
-            self.prices[self.beers[beer.get_name()]].append(beer.get_price())
+    def adjst_prices(self):
+        for beer in self.beers:
+            self.prices[beer.get_name()].append(beer.get_price())
             #on suppose que la biere est deja rentree dans le tableau
             if beer.get_price()>self.lim :
                 self.lim=beer.get_price() #affichage
@@ -84,8 +85,8 @@ class price_table:
 
     def adjst_conso(self,consos):
         for beer in self.beers:
-            self.conso[self.beers[beer]][0]+=consos[beer]
-            self.conso[self.beers[beer]][1]=consos[beer]
+            self.conso[beer.get_name()][0]+=consos[beer.get_name()]
+            self.conso[beer.get_name()][1]=consos[beer.get_name()]
 
 
     
@@ -95,14 +96,14 @@ class price_table:
         x=[i for i in range(self.iter+1)] #ligne de repere temporel
         for beer in self.beers:
             beer_departure=0
-            while self.prices[self.beers[beer]][beer_departure]==None:
+            while self.prices[beer.get_name()][beer_departure]==None:
                 #on definie quand commencer la courbe
                 beer_departure+=1
                 
             plt.plot(x[beer_departure:],
-                     self.prices[self.beers[beer]][beer_departure:],
-                     self.beers_colors[beer],
-                     label=beer)
+                     self.prices[beer.get_name()][beer_departure:],
+                     self.beers_colors[beer.get_name()],
+                     label=beer.get_name())
             
         plt.ylim([0,self.lim +1])
         plt.legend()
@@ -120,11 +121,11 @@ class price_table:
         else :
             x=[i for i in range(self.iter+1)] #ligne de repere temporel
             beer_departure=0
-            while self.prices[self.beers[beer.get_name()]][beer_departure]==None:
+            while self.prices[beer.get_name()][beer_departure]==None:
                 #on definie quand commencer la courbe
                 beer_departure+=1
             plt.plot(x[beer_departure:],
-                     self.prices[self.beers[beer.get_name()]][beer_departure:],
+                     self.prices[beer.get_name()][beer_departure:],
                      self.beers_colors[beer.get_name()])
             plt.ylim([0,self.lim +1])
             plt.xlabel(beer.get_name()+f"  {beer.get_price()} €")
@@ -138,42 +139,34 @@ class price_table:
 
 #-------------------------------------------------------------------------------------------------------
 
-#model fonctions
+#model fonction
 
+    def model_function(self):
+        sum_conso_iter=0
+        sum_conso_tot=0
+        sum_prices=0
 
-
-def fonction_model_1(tab,beers):
-    sum_conso_iter=0
-    sum_conso_tot=0
-    sum_prices=0
-
-    for beer in beers :
-        sum_conso_iter += tab.conso[tab.beers[beer.get_name()]][1]
-        sum_conso_tot += tab.conso[tab.beers[beer.get_name()]][0]
-        sum_prices += tab.prices[tab.beers[beer.get_name()]][tab.iter]
+        for beer in self.beers:
+            sum_conso_iter += self.conso[beer.get_name()][1]
+            sum_conso_tot += self.conso[beer.get_name()][0]
+            sum_prices += self.prices[beer.get_name()][self.iter]
         
-
-    if sum_conso_iter == 0: #sécurité pour ne pas diviser par 0 et faire crasher le programme
+        if sum_conso_iter == 0: #not div by 0
+            return
+        
+        for beer in self.beers:
+            new_price = self.alpha * self.conso[beer.get_name()][1] / sum_conso_iter
+            new_price += (1 - self.alpha) * self.conso[beer.get_name()][0] / sum_conso_tot
+            new_price *= sum_prices
+            new_price = max(.5,new_price)
+            new_price = min(5,new_price)
+            new_price = int(new_price * 100 + .5)/100 #arrondi au centième
+            beer.change_price(new_price)
+        
+        self.adjst_prices()
         return
 
 
-
-    for beer in beers :
-        new_price = tab.alpha * tab.conso[tab.beers[beer.get_name()]][1] / sum_conso_iter
-        new_price += (1 - tab.alpha) * tab.conso[tab.beers[beer.get_name()]][0] / sum_conso_tot
-        new_price *= sum_prices
-        
-        new_price=max(0.5,new_price)
-        new_price=min(5,new_price)
-        new_price=int(new_price*100+.5)/100
-        
-        beer.change_price(new_price)
-
-    tab.adjst_prices(beers)
-    
-    return
-
-            
 #-------------------------------------------------------------------------------------------------------
 
 

@@ -16,7 +16,7 @@ for i in range(len(beer_load.beer_list)):
 def fonction_de_conso(beers, tab, init_p):
     consos={}
     for beer in beers :
-        consos[beer.get_name()]=int(rd.randint(0,100)/tab.prices[tab.beers[beer.get_name()]][tab.iter]*init_p[beer.get_name()]+0.5)
+        consos[beer.get_name()]=int(rd.randint(0,100)/tab.prices[beer.get_name()][tab.iter]*init_p[beer.get_name()]+0.5)
     return consos
 
 #début changement pour ctrl z
@@ -63,7 +63,7 @@ for k in range(300):
 
     consos=fonction_de_conso(beer_load.beer_list,beer_load.tab,init_price)
     beer_load.tab.adjst_conso(consos)
-    model.fonction_model_1(beer_load.tab,beer_load.beer_list)
+    beer_load.tab.model_function()
 
 beer_all=model.beer("all","all",0,"all")
 beer_load.tab.draw_curve(beer_all)
