@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
-import random as rd
-import mpld3
+import matplotlib.image as mpimg
 
 
 #-------------------------------------------------------------------------------------------------------
@@ -26,6 +25,13 @@ class beer:
     
     def get_descr(self):
         return self.descr
+
+    def show_img(self):
+        img=mpimg.imread(self.img)
+        plt.imshow(img)
+        plt.axis('off')
+        plt.show()
+        return
 
 #-------------------------------------------------------------------------------------------------------
 
@@ -129,9 +135,7 @@ class price_table:
                      self.beers_colors[name_beer])
             plt.ylim([0,self.lim +1])
             plt.xlabel(name_beer+f"  {self.prices[name_beer][self.iter]} €")
-            
-
-            
+                        
             plt.show()
             #mpld3.show()
         #plt.savefig(beer.get_name())
