@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style1.css">
+        <title>Foyer Bourse</title>
+        <link rel="icon" href="images/logo.jpg">
+    </head>
+
+    <body>
+        <header>
+            <div class="block">
+                <div>
+                    <p class="head_box">Courbes des prix</p> 
+                </div>
+            </div>
+        </header>
+        <section>
+            <h3 class="centre">
+                <a href="accueil.html" class="lobby_button">RETOUR À L'ACCEUIL</a>
+            </h3>
+        </section>
+        <form method="POST" action="courbes/plot" class="block">
+            <select name="selected_plot">
+              {% for beer in beers %}
+                <option value="{{ biere }}">{{ beer.get_name() }}</option>
+              {% endfor %}
+            </select>
+            <input type="submit" value="Afficher la courbe">
+        </form>
+    </body>
+</html>
