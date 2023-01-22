@@ -65,10 +65,10 @@ for k in range(300):
     beer_load.tab.adjst_conso(consos)
     beer_load.tab.model_function()
 
-beer_all=model.beer("all","all",0,"all")
-beer_load.tab.draw_curve(beer_all)
+
+beer_load.tab.draw_curve("all")
 for beer in beer_load.beer_list:
-    beer_load.tab.draw_curve(beer)
+    beer_load.tab.draw_curve(beer.get_name())
 
 
 

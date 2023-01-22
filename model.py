@@ -115,20 +115,20 @@ class price_table:
     # for e in dict e est la clef
     # plt.plot(x,y,color)
 
-    def draw_curve(self,beer):
-        if beer.get_name()=="all":
+    def draw_curve(self,name_beer):
+        if name_beer=="all":
             self.draw_curves_all()
         else :
             x=[i for i in range(self.iter+1)] #ligne de repere temporel
             beer_departure=0
-            while self.prices[beer.get_name()][beer_departure]==None:
+            while self.prices[name_beer][beer_departure]==None:
                 #on definie quand commencer la courbe
                 beer_departure+=1
             plt.plot(x[beer_departure:],
-                     self.prices[beer.get_name()][beer_departure:],
-                     self.beers_colors[beer.get_name()])
+                     self.prices[name_beer][beer_departure:],
+                     self.beers_colors[name_beer])
             plt.ylim([0,self.lim +1])
-            plt.xlabel(beer.get_name()+f"  {beer.get_price()} €")
+            plt.xlabel(name_beer+f"  {self.prices[name_beer][self.iter]} €")
             
 
             
