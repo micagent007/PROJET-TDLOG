@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{{url_for('static', filename='style1.css')}}">
+        <title>Foyer Bourse</title>
+        <link rel="icon" href="{{url_for('static', filename='images/logo.jpg')}}">
+    </head>
+    <body>
+        <header>
+            <div class="block">
+                <div>
+                    <p class="head_box">Catalogue</p> 
+                </div>
+            </div>
+        </header>
+        <section>
+            <h3 class="centre">
+                <a href="accueil" class="lobby_button">RETOUR À L'ACCEUIL</a>
+            </h3>
+        </section>
+        <section>
+            <div class="block">
+                <div>
+                    <h2 class="update">Prochaine mise à jour des prix dans :</h2>
+                </div>
+            </div>
+        </section>
+        <table class="block">
+            <tr>
+                <th>Bière</th>
+                <th>Description</th>
+                <th>Prix</th>
+            </tr>
+            {% for beer in beers %}
+            <tr>
+               <th> {{ beer.get_name() }} <img class="imageflottanteright" alt="biere" src="{{url_for('static', filename=beer.get_image())}}"/></th>
+               <th> {{ beer.get_descr() }}</th>
+               <th> {{ beer.get_price() }}</th>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+
+</html>

@@ -1,0 +1,5594 @@
+[
+{
+  "model": "trade.price",
+  "pk": 1,
+  "fields": {
+    "good": 1,
+    "date": "2022-09-14T07:09:52.780Z",
+    "price": 170
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 2,
+  "fields": {
+    "good": 2,
+    "date": "2022-09-14T07:12:26.498Z",
+    "price": -170
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 3,
+  "fields": {
+    "good": 3,
+    "date": "2022-09-14T07:28:54.572Z",
+    "price": -340
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 4,
+  "fields": {
+    "good": 4,
+    "date": "2022-09-14T07:31:20.025Z",
+    "price": -100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 5,
+  "fields": {
+    "good": 5,
+    "date": "2022-09-14T07:31:24.884Z",
+    "price": 50
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 6,
+  "fields": {
+    "good": 6,
+    "date": "2022-09-14T07:31:36.389Z",
+    "price": 50
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 7,
+  "fields": {
+    "good": 7,
+    "date": "2022-09-14T07:32:01.347Z",
+    "price": 50
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 8,
+  "fields": {
+    "good": 8,
+    "date": "2022-09-14T11:34:59.061Z",
+    "price": -500
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 9,
+  "fields": {
+    "good": 1,
+    "date": "2022-09-14T17:58:26.800Z",
+    "price": 170
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 10,
+  "fields": {
+    "good": 9,
+    "date": "2022-09-15T13:36:26.597Z",
+    "price": 210
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 11,
+  "fields": {
+    "good": 10,
+    "date": "2022-09-15T13:37:04.270Z",
+    "price": 230
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 12,
+  "fields": {
+    "good": 10,
+    "date": "2022-09-15T13:37:27.197Z",
+    "price": 230
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 13,
+  "fields": {
+    "good": 1,
+    "date": "2022-09-15T13:37:38.839Z",
+    "price": 170
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 14,
+  "fields": {
+    "good": 12,
+    "date": "2022-09-15T13:39:41.162Z",
+    "price": 220
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 15,
+  "fields": {
+    "good": 13,
+    "date": "2022-09-15T13:43:45.288Z",
+    "price": 190
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 16,
+  "fields": {
+    "good": 14,
+    "date": "2022-09-15T13:44:40.006Z",
+    "price": 260
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 17,
+  "fields": {
+    "good": 15,
+    "date": "2022-09-15T13:45:29.901Z",
+    "price": 210
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 18,
+  "fields": {
+    "good": 16,
+    "date": "2022-09-15T13:46:26.236Z",
+    "price": 230
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 19,
+  "fields": {
+    "good": 17,
+    "date": "2022-09-15T13:50:01.662Z",
+    "price": 290
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 20,
+  "fields": {
+    "good": 18,
+    "date": "2022-09-15T13:52:20.092Z",
+    "price": 240
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 21,
+  "fields": {
+    "good": 19,
+    "date": "2022-09-15T13:53:33.155Z",
+    "price": 250
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 22,
+  "fields": {
+    "good": 18,
+    "date": "2022-09-15T15:16:40.277Z",
+    "price": 240
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 23,
+  "fields": {
+    "good": 19,
+    "date": "2022-09-15T15:16:49.914Z",
+    "price": 250
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 24,
+  "fields": {
+    "good": 21,
+    "date": "2022-09-15T15:37:59.934Z",
+    "price": 210
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 25,
+  "fields": {
+    "good": 24,
+    "date": "2022-09-15T15:38:37.691Z",
+    "price": 280
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 26,
+  "fields": {
+    "good": 25,
+    "date": "2022-09-15T15:38:57.069Z",
+    "price": 220
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 27,
+  "fields": {
+    "good": 27,
+    "date": "2022-09-15T15:39:48.002Z",
+    "price": 210
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 28,
+  "fields": {
+    "good": 28,
+    "date": "2022-09-15T15:40:09.713Z",
+    "price": 320
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 29,
+  "fields": {
+    "good": 29,
+    "date": "2022-09-15T15:40:42.258Z",
+    "price": 260
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 30,
+  "fields": {
+    "good": 10,
+    "date": "2022-09-15T15:41:06.914Z",
+    "price": 230
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 31,
+  "fields": {
+    "good": 30,
+    "date": "2022-09-15T15:41:26.396Z",
+    "price": 220
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 32,
+  "fields": {
+    "good": 31,
+    "date": "2022-09-16T07:48:49.707Z",
+    "price": 260
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 33,
+  "fields": {
+    "good": 32,
+    "date": "2022-09-16T07:49:01.554Z",
+    "price": 100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 34,
+  "fields": {
+    "good": 33,
+    "date": "2022-09-16T07:49:15.151Z",
+    "price": -200
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 35,
+  "fields": {
+    "good": 34,
+    "date": "2022-09-16T10:41:07.742Z",
+    "price": 100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 36,
+  "fields": {
+    "good": 35,
+    "date": "2022-09-16T10:42:11.842Z",
+    "price": 250
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 37,
+  "fields": {
+    "good": 36,
+    "date": "2022-09-27T06:35:19.374Z",
+    "price": 220
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 38,
+  "fields": {
+    "good": 37,
+    "date": "2022-09-27T07:51:59.572Z",
+    "price": -10
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 39,
+  "fields": {
+    "good": 38,
+    "date": "2022-09-27T07:52:14.938Z",
+    "price": -100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 40,
+  "fields": {
+    "good": 36,
+    "date": "2022-09-29T13:15:34.134Z",
+    "price": 120
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 41,
+  "fields": {
+    "good": 40,
+    "date": "2022-10-12T11:32:58.904Z",
+    "price": -100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 42,
+  "fields": {
+    "good": 41,
+    "date": "2022-10-12T11:33:21.026Z",
+    "price": 100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 43,
+  "fields": {
+    "good": 42,
+    "date": "2022-10-12T11:33:38.446Z",
+    "price": -110
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 44,
+  "fields": {
+    "good": 43,
+    "date": "2022-10-12T11:38:25.919Z",
+    "price": 10
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 45,
+  "fields": {
+    "good": 44,
+    "date": "2022-10-21T11:57:05.189Z",
+    "price": -260
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 46,
+  "fields": {
+    "good": 45,
+    "date": "2022-10-21T13:04:24.440Z",
+    "price": -100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 47,
+  "fields": {
+    "good": 46,
+    "date": "2022-10-21T13:04:47.234Z",
+    "price": -110
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 48,
+  "fields": {
+    "good": 47,
+    "date": "2022-10-21T13:05:00.605Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 49,
+  "fields": {
+    "good": 48,
+    "date": "2022-10-23T09:15:09.411Z",
+    "price": 250
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 50,
+  "fields": {
+    "good": 14,
+    "date": "2022-10-23T09:15:44.897Z",
+    "price": 260
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 51,
+  "fields": {
+    "good": 48,
+    "date": "2022-10-23T09:15:53.536Z",
+    "price": 250
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 52,
+  "fields": {
+    "good": 49,
+    "date": "2022-10-23T16:50:01.289Z",
+    "price": -260
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 53,
+  "fields": {
+    "good": 50,
+    "date": "2022-10-24T15:03:41.902Z",
+    "price": -390
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 54,
+  "fields": {
+    "good": 51,
+    "date": "2022-10-24T15:04:38.529Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 55,
+  "fields": {
+    "good": 52,
+    "date": "2022-10-24T15:05:00.314Z",
+    "price": -100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 56,
+  "fields": {
+    "good": 53,
+    "date": "2022-10-24T15:05:08.246Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 57,
+  "fields": {
+    "good": 54,
+    "date": "2022-10-24T15:05:10.087Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 58,
+  "fields": {
+    "good": 55,
+    "date": "2022-10-24T15:05:17.427Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 59,
+  "fields": {
+    "good": 56,
+    "date": "2022-10-24T15:09:56.543Z",
+    "price": 3434
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 60,
+  "fields": {
+    "good": 56,
+    "date": "2022-10-24T15:11:01.434Z",
+    "price": 160
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 61,
+  "fields": {
+    "good": 56,
+    "date": "2022-10-24T15:11:33.494Z",
+    "price": 160
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 62,
+  "fields": {
+    "good": 57,
+    "date": "2022-10-24T19:45:42.785Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 63,
+  "fields": {
+    "good": 58,
+    "date": "2022-10-24T19:45:54.915Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 64,
+  "fields": {
+    "good": 59,
+    "date": "2022-10-24T19:46:08.843Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 65,
+  "fields": {
+    "good": 60,
+    "date": "2022-10-24T19:48:13.845Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 66,
+  "fields": {
+    "good": 61,
+    "date": "2022-10-24T19:49:29.292Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 67,
+  "fields": {
+    "good": 62,
+    "date": "2022-10-24T19:51:07.276Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 68,
+  "fields": {
+    "good": 63,
+    "date": "2022-10-24T19:58:38.911Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 69,
+  "fields": {
+    "good": 64,
+    "date": "2022-10-24T19:59:23.520Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 70,
+  "fields": {
+    "good": 65,
+    "date": "2022-10-24T20:00:41.186Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 71,
+  "fields": {
+    "good": 66,
+    "date": "2022-10-24T20:01:16.677Z",
+    "price": -800
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 72,
+  "fields": {
+    "good": 67,
+    "date": "2022-10-24T20:02:38.576Z",
+    "price": -400
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 73,
+  "fields": {
+    "good": 68,
+    "date": "2022-10-24T20:04:17.845Z",
+    "price": -2400
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 74,
+  "fields": {
+    "good": 69,
+    "date": "2022-10-24T20:05:38.982Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 75,
+  "fields": {
+    "good": 70,
+    "date": "2022-10-24T20:06:05.993Z",
+    "price": -570
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 76,
+  "fields": {
+    "good": 71,
+    "date": "2022-10-24T20:06:53.209Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 77,
+  "fields": {
+    "good": 72,
+    "date": "2022-10-24T20:08:36.223Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 78,
+  "fields": {
+    "good": 73,
+    "date": "2022-10-24T20:13:42.816Z",
+    "price": -600
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 79,
+  "fields": {
+    "good": 74,
+    "date": "2022-10-24T20:14:39.751Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 80,
+  "fields": {
+    "good": 75,
+    "date": "2022-10-24T20:21:45.928Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 81,
+  "fields": {
+    "good": 76,
+    "date": "2022-10-24T20:24:05.082Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 82,
+  "fields": {
+    "good": 77,
+    "date": "2022-10-24T20:35:29.148Z",
+    "price": -730
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 83,
+  "fields": {
+    "good": 78,
+    "date": "2022-10-24T21:11:17.630Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 84,
+  "fields": {
+    "good": 79,
+    "date": "2022-10-24T21:26:55.219Z",
+    "price": -4000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 85,
+  "fields": {
+    "good": 80,
+    "date": "2022-10-24T21:37:28.665Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 86,
+  "fields": {
+    "good": 81,
+    "date": "2022-10-24T21:37:37.980Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 87,
+  "fields": {
+    "good": 82,
+    "date": "2022-10-24T21:39:59.517Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 88,
+  "fields": {
+    "good": 83,
+    "date": "2022-10-24T21:54:17.670Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 89,
+  "fields": {
+    "good": 84,
+    "date": "2022-10-24T21:55:59.443Z",
+    "price": -260
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 90,
+  "fields": {
+    "good": 85,
+    "date": "2022-10-27T20:14:30.887Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 91,
+  "fields": {
+    "good": 86,
+    "date": "2022-10-27T20:15:40.618Z",
+    "price": -500
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 92,
+  "fields": {
+    "good": 9,
+    "date": "2022-10-27T21:58:43.924Z",
+    "price": 230
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 93,
+  "fields": {
+    "good": 87,
+    "date": "2022-11-14T21:05:40.441Z",
+    "price": 50
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 94,
+  "fields": {
+    "good": 88,
+    "date": "2022-11-21T18:19:31.452Z",
+    "price": 200
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 95,
+  "fields": {
+    "good": 89,
+    "date": "2022-11-21T22:11:39.053Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 96,
+  "fields": {
+    "good": 90,
+    "date": "2022-11-21T23:27:44.109Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 97,
+  "fields": {
+    "good": 91,
+    "date": "2022-11-24T20:58:17.306Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 98,
+  "fields": {
+    "good": 92,
+    "date": "2022-11-24T20:58:36.209Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 99,
+  "fields": {
+    "good": 93,
+    "date": "2022-11-24T20:58:42.041Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 100,
+  "fields": {
+    "good": 94,
+    "date": "2022-11-24T21:13:48.155Z",
+    "price": -1500
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 101,
+  "fields": {
+    "good": 95,
+    "date": "2022-11-24T21:17:59.347Z",
+    "price": 100
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 102,
+  "fields": {
+    "good": 96,
+    "date": "2022-11-24T23:03:42.656Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 103,
+  "fields": {
+    "good": 97,
+    "date": "2022-11-30T20:02:29.557Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 104,
+  "fields": {
+    "good": 98,
+    "date": "2022-11-30T20:09:52.205Z",
+    "price": -4000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 105,
+  "fields": {
+    "good": 99,
+    "date": "2022-11-30T20:12:12.334Z",
+    "price": 220
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 106,
+  "fields": {
+    "good": 100,
+    "date": "2022-11-30T20:44:57.770Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 107,
+  "fields": {
+    "good": 101,
+    "date": "2022-11-30T20:56:58.925Z",
+    "price": -220
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 108,
+  "fields": {
+    "good": 102,
+    "date": "2022-11-30T21:47:39.502Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 109,
+  "fields": {
+    "good": 103,
+    "date": "2022-11-30T21:47:44.834Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 110,
+  "fields": {
+    "good": 104,
+    "date": "2022-11-30T21:47:56.889Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 111,
+  "fields": {
+    "good": 105,
+    "date": "2022-11-30T21:52:29.217Z",
+    "price": -1500
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 112,
+  "fields": {
+    "good": 106,
+    "date": "2022-12-15T21:07:22.329Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 113,
+  "fields": {
+    "good": 107,
+    "date": "2022-12-15T21:09:20.197Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 114,
+  "fields": {
+    "good": 108,
+    "date": "2022-12-15T21:19:53.535Z",
+    "price": 240
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 115,
+  "fields": {
+    "good": 109,
+    "date": "2022-12-15T21:29:26.473Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 116,
+  "fields": {
+    "good": 110,
+    "date": "2022-12-15T21:51:40.183Z",
+    "price": -1000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 117,
+  "fields": {
+    "good": 111,
+    "date": "2022-12-15T22:05:04.600Z",
+    "price": -2000
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 118,
+  "fields": {
+    "good": 112,
+    "date": "2022-12-15T22:48:44.288Z",
+    "price": 0
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 119,
+  "fields": {
+    "good": 113,
+    "date": "2022-12-15T22:51:13.406Z",
+    "price": -200
+  }
+},
+{
+  "model": "trade.price",
+  "pk": 120,
+  "fields": {
+    "good": 114,
+    "date": "2022-12-15T22:52:33.426Z",
+    "price": -100
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 1,
+  "fields": {
+    "name": "Cuvée des trolls",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 2,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 3,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 4,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 5,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 6,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 7,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 8,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 9,
+  "fields": {
+    "name": "Kasteel rouge",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 10,
+  "fields": {
+    "name": "Delirium Tremens",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 12,
+  "fields": {
+    "name": "Chimay Triple",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 13,
+  "fields": {
+    "name": "Super 8",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 14,
+  "fields": {
+    "name": "Paix-Dieu (Bouteille)",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 15,
+  "fields": {
+    "name": "3 monts",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 16,
+  "fields": {
+    "name": "Gulden Spoor",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 17,
+  "fields": {
+    "name": "Malheur 12",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 18,
+  "fields": {
+    "name": "Triple d’Anvers",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 19,
+  "fields": {
+    "name": "Paulaner",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 21,
+  "fields": {
+    "name": "Rince cochon",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 24,
+  "fields": {
+    "name": "Myrtille d’Amélie",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 25,
+  "fields": {
+    "name": "Floris Passion",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 27,
+  "fields": {
+    "name": "Guldendraak",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 28,
+  "fields": {
+    "name": "Cidre",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 29,
+  "fields": {
+    "name": "Malheur 10",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 30,
+  "fields": {
+    "name": "Bières Paniers",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 31,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 32,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 33,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 34,
+  "fields": {
+    "name": "Kro",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 35,
+  "fields": {
+    "name": "1664 Blanche",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 36,
+  "fields": {
+    "name": "Cidre val rance",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 37,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 38,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 39,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 40,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 41,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 42,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 43,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 44,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 45,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 46,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 47,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 48,
+  "fields": {
+    "name": "Paix-Dieu (Pression)",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 49,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 50,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 51,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 52,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 53,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 54,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 55,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 56,
+  "fields": {
+    "name": "Pater Lieven",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 57,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 58,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 59,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 60,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 61,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 62,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 63,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 64,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 65,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 66,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 67,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 68,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 69,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 70,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 71,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 72,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 73,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 74,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 75,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 76,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 77,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 78,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 79,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 80,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 81,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 82,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 83,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 84,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 85,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 86,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 87,
+  "fields": {
+    "name": "Soft",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 88,
+  "fields": {
+    "name": "Brooklyn Defender IPA",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 89,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 90,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 91,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 92,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 93,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 94,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 95,
+  "fields": {
+    "name": "Kro demi",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 96,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 97,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 98,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 99,
+  "fields": {
+    "name": "Franziskaner",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 100,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 101,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 102,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 103,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 104,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 105,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 106,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 107,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 108,
+  "fields": {
+    "name": "Cherry chouffe",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 109,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 110,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 111,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 112,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 113,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.good",
+  "pk": 114,
+  "fields": {
+    "name": "Crédit",
+    "club": 4
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 1,
+  "fields": {
+    "good": 2,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-09-14T07:12:26.507Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 2,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-09-14T07:12:48.217Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 3,
+  "fields": {
+    "good": 3,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-09-14T07:28:54.583Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 4,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-09-14T07:29:46.866Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 5,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-09-14T07:29:54.442Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 6,
+  "fields": {
+    "good": 4,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-09-14T07:31:20.036Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 7,
+  "fields": {
+    "good": 6,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-09-14T07:31:36.398Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 8,
+  "fields": {
+    "good": 7,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-09-14T07:32:01.358Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 9,
+  "fields": {
+    "good": 8,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-09-14T11:34:59.074Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 10,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-09-14T11:35:28.902Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 11,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-09-14T11:37:46.063Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 12,
+  "fields": {
+    "good": 31,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-09-16T07:48:49.734Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 13,
+  "fields": {
+    "good": 32,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-09-16T07:49:01.564Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 14,
+  "fields": {
+    "good": 33,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-09-16T07:49:15.161Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 15,
+  "fields": {
+    "good": 37,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-09-27T07:51:59.585Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 16,
+  "fields": {
+    "good": 38,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-09-27T07:52:14.947Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 17,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-09-27T08:01:12.414Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 18,
+  "fields": {
+    "good": 40,
+    "quantity": 1,
+    "student": 356,
+    "date": "2022-10-12T11:32:58.924Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 19,
+  "fields": {
+    "good": 41,
+    "quantity": 1,
+    "student": 356,
+    "date": "2022-10-12T11:33:21.035Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 20,
+  "fields": {
+    "good": 42,
+    "quantity": 1,
+    "student": 356,
+    "date": "2022-10-12T11:33:38.455Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 21,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 356,
+    "date": "2022-10-12T11:34:11.480Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 22,
+  "fields": {
+    "good": 43,
+    "quantity": 1,
+    "student": 356,
+    "date": "2022-10-12T11:38:25.928Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 23,
+  "fields": {
+    "good": 44,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-10-21T11:57:05.240Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 24,
+  "fields": {
+    "good": 14,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-10-21T11:57:20.736Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 25,
+  "fields": {
+    "good": 45,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-21T13:04:24.449Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 26,
+  "fields": {
+    "good": 47,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-21T13:05:00.615Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 27,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-21T13:06:58.200Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 28,
+  "fields": {
+    "good": 49,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-23T16:50:01.302Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 29,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-23T16:50:27.700Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 30,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-24T15:02:55.209Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 31,
+  "fields": {
+    "good": 50,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-24T15:03:41.914Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 32,
+  "fields": {
+    "good": 51,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-10-24T15:04:38.540Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 33,
+  "fields": {
+    "good": 52,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-10-24T15:05:00.326Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 34,
+  "fields": {
+    "good": 53,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-10-24T15:05:08.257Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 35,
+  "fields": {
+    "good": 55,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-10-24T15:05:17.438Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 36,
+  "fields": {
+    "good": 57,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T19:45:42.832Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 37,
+  "fields": {
+    "good": 59,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T19:46:08.876Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 38,
+  "fields": {
+    "good": 60,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-10-24T19:48:13.859Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 39,
+  "fields": {
+    "good": 61,
+    "quantity": 1,
+    "student": 582,
+    "date": "2022-10-24T19:49:29.306Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 40,
+  "fields": {
+    "good": 62,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T19:51:07.330Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 41,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 582,
+    "date": "2022-10-24T19:51:36.504Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 42,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 582,
+    "date": "2022-10-24T19:51:45.508Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 43,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 582,
+    "date": "2022-10-24T19:51:54.196Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 44,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 582,
+    "date": "2022-10-24T19:52:02.979Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 45,
+  "fields": {
+    "good": 63,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-10-24T19:58:38.925Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 46,
+  "fields": {
+    "good": 64,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-10-24T19:59:23.533Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 47,
+  "fields": {
+    "good": 65,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-10-24T20:00:41.200Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 48,
+  "fields": {
+    "good": 66,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-10-24T20:01:16.691Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 49,
+  "fields": {
+    "good": 67,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T20:02:38.590Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 50,
+  "fields": {
+    "good": 68,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T20:04:17.855Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 51,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-10-24T20:04:44.924Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 52,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-10-24T20:05:00.099Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 53,
+  "fields": {
+    "good": 69,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-10-24T20:05:38.991Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 54,
+  "fields": {
+    "good": 70,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-10-24T20:06:06.025Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 55,
+  "fields": {
+    "good": 71,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-10-24T20:06:53.222Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 56,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-10-24T20:06:57.618Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 57,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-10-24T20:07:25.762Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 58,
+  "fields": {
+    "good": 72,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-24T20:08:36.236Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 59,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T20:09:17.846Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 60,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T20:09:31.190Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 61,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T20:09:37.004Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 62,
+  "fields": {
+    "good": 73,
+    "quantity": 1,
+    "student": 378,
+    "date": "2022-10-24T20:13:42.829Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 63,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 378,
+    "date": "2022-10-24T20:14:17.094Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 64,
+  "fields": {
+    "good": 74,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-10-24T20:14:39.763Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 65,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-24T20:14:51.711Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 66,
+  "fields": {
+    "good": 75,
+    "quantity": 1,
+    "student": 411,
+    "date": "2022-10-24T20:21:45.941Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 67,
+  "fields": {
+    "good": 76,
+    "quantity": 1,
+    "student": 411,
+    "date": "2022-10-24T20:24:05.095Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 68,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 411,
+    "date": "2022-10-24T20:24:31.224Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 69,
+  "fields": {
+    "good": 77,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-10-24T20:35:29.195Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 70,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-10-24T20:35:58.224Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 71,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-10-24T20:37:18.343Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 72,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-24T20:40:57.879Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 73,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T20:41:10.351Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 74,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-10-24T20:41:46.871Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 75,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-10-24T20:43:02.319Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 76,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-10-24T20:44:22.253Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 77,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-10-24T20:44:33.960Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 78,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T20:50:27.094Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 79,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 378,
+    "date": "2022-10-24T20:52:04.976Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 80,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 411,
+    "date": "2022-10-24T20:53:58.255Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 81,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T20:54:46.933Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 82,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T20:54:59.047Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 83,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-10-24T21:00:40.633Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 84,
+  "fields": {
+    "good": 78,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T21:11:17.639Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 85,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T21:26:08.074Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 86,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 378,
+    "date": "2022-10-24T21:26:28.026Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 87,
+  "fields": {
+    "good": 79,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-10-24T21:26:55.234Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 88,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-10-24T21:27:40.901Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 89,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-10-24T21:27:57.006Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 90,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T21:28:03.976Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 91,
+  "fields": {
+    "good": 36,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-10-24T21:32:08.305Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 92,
+  "fields": {
+    "good": 81,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-10-24T21:37:37.989Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 93,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-24T21:38:12.336Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 94,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-10-24T21:38:24.913Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 95,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-10-24T21:39:33.720Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 96,
+  "fields": {
+    "good": 82,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-10-24T21:39:59.526Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 97,
+  "fields": {
+    "good": 18,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-10-24T21:40:34.553Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 98,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T21:45:25.168Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 99,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T21:45:32.209Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 100,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-10-24T21:48:38.205Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 101,
+  "fields": {
+    "good": 83,
+    "quantity": 1,
+    "student": 378,
+    "date": "2022-10-24T21:54:17.719Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 102,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-10-24T21:55:11.508Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 103,
+  "fields": {
+    "good": 84,
+    "quantity": 1,
+    "student": 378,
+    "date": "2022-10-24T21:55:59.452Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 104,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 378,
+    "date": "2022-10-24T21:56:17.731Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 105,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 378,
+    "date": "2022-10-24T21:56:46.750Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 106,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T21:57:14.974Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 107,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-10-24T22:02:01.859Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 108,
+  "fields": {
+    "good": 18,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-10-24T22:03:04.827Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 109,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-10-24T22:06:36.114Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 110,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T22:15:14.252Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 111,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T22:23:39.834Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 112,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-10-24T22:23:59.493Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 113,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-10-24T22:24:07.226Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 114,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-10-24T22:25:43.492Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 115,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-10-24T22:28:09.699Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 116,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-10-24T22:34:17.390Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 117,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-10-24T22:51:07.036Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 118,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-10-24T22:54:55.068Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 119,
+  "fields": {
+    "good": 85,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-10-27T20:14:30.896Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 120,
+  "fields": {
+    "good": 86,
+    "quantity": 1,
+    "student": 373,
+    "date": "2022-10-27T20:15:40.628Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 121,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-10-27T20:43:26.553Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 122,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-10-27T21:40:56.606Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 123,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-10-27T21:58:53.951Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 124,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-10-27T21:59:05.195Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 125,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-10-28T09:05:23.800Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 126,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-10-28T09:05:33.351Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 127,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-10-28T09:05:39.389Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 128,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-10-28T09:05:50.286Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 129,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-10-28T09:06:10.773Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 130,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T21:01:41.173Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 131,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-14T21:04:03.638Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 132,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-14T21:32:26.184Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 133,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T22:15:09.468Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 134,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-14T22:27:43.331Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 135,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T22:50:53.806Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 136,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T22:50:59.115Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 137,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T22:51:05.068Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 138,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T22:51:10.897Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 139,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T22:51:17.615Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 140,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T22:51:24.278Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 141,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T22:51:29.412Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 142,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T23:12:49.633Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 143,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-11-14T23:22:40.348Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 144,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-11-14T23:22:47.308Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 145,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-11-14T23:22:55.615Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 146,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-11-14T23:49:02.679Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 147,
+  "fields": {
+    "good": 17,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-14T23:49:10.695Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 148,
+  "fields": {
+    "good": 88,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-21T21:05:04.149Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 149,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T21:05:31.097Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 150,
+  "fields": {
+    "good": 21,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-21T21:51:22.621Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 151,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-11-21T21:51:38.624Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 152,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-11-21T21:51:49.196Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 153,
+  "fields": {
+    "good": 88,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-11-21T21:53:30.231Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 154,
+  "fields": {
+    "good": 87,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-21T21:56:16.011Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 155,
+  "fields": {
+    "good": 87,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-21T21:56:25.082Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 156,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T21:57:43.582Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 157,
+  "fields": {
+    "good": 89,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-11-21T22:11:39.071Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 158,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-11-21T22:12:29.410Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 159,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-11-21T22:12:46.911Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 160,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-11-21T22:19:16.247Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 161,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-11-21T22:20:12.963Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 162,
+  "fields": {
+    "good": 88,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-11-21T22:22:40.655Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 163,
+  "fields": {
+    "good": 10,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-21T22:23:19.751Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 164,
+  "fields": {
+    "good": 88,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-21T22:38:29.933Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 165,
+  "fields": {
+    "good": 88,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-21T22:38:46.622Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 166,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-11-21T22:40:03.879Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 167,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-21T22:42:49.888Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 168,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-11-21T22:48:23.958Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 169,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-21T22:59:23.400Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 170,
+  "fields": {
+    "good": 88,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-11-21T23:00:12.070Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 171,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-21T23:06:02.414Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 172,
+  "fields": {
+    "good": 90,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T23:27:44.158Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 173,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T23:28:01.945Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 174,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T23:28:09.047Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 175,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T23:28:18.838Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 176,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T23:28:27.415Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 177,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T23:28:38.869Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 178,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-21T23:28:46.174Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 179,
+  "fields": {
+    "good": 10,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-21T23:29:21.118Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 180,
+  "fields": {
+    "good": 29,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-11-21T23:32:08.070Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 181,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-21T23:39:38.446Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 182,
+  "fields": {
+    "good": 10,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-21T23:52:11.445Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 183,
+  "fields": {
+    "good": 91,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-11-24T20:58:17.319Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 184,
+  "fields": {
+    "good": 92,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-11-24T20:58:36.222Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 185,
+  "fields": {
+    "good": 93,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-24T20:58:42.054Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 186,
+  "fields": {
+    "good": 36,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-24T21:04:38.142Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 187,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-24T21:10:35.834Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 188,
+  "fields": {
+    "good": 94,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-11-24T21:13:48.202Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 189,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-11-24T21:14:11.300Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 190,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-11-24T21:16:09.718Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 191,
+  "fields": {
+    "good": 18,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-11-24T21:44:55.765Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 192,
+  "fields": {
+    "good": 10,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-24T21:46:24.470Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 193,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-24T21:54:39.005Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 194,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-11-24T22:00:18.628Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 195,
+  "fields": {
+    "good": 14,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-24T22:00:24.697Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 196,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-11-24T22:03:46.189Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 197,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 490,
+    "date": "2022-11-24T22:14:56.249Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 198,
+  "fields": {
+    "good": 88,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-11-24T22:33:48.965Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 199,
+  "fields": {
+    "good": 14,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-24T22:55:27.326Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 200,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-11-24T22:57:36.275Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 201,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-11-24T22:59:30.306Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 202,
+  "fields": {
+    "good": 18,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-24T23:01:33.116Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 203,
+  "fields": {
+    "good": 13,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-24T23:01:51.723Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 204,
+  "fields": {
+    "good": 17,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-11-24T23:02:15.017Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 205,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-11-24T23:02:24.727Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 206,
+  "fields": {
+    "good": 96,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-11-24T23:03:42.698Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 207,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-11-24T23:03:54.651Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 208,
+  "fields": {
+    "good": 87,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-11-24T23:06:20.121Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 209,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-11-24T23:11:56.841Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 210,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-11-24T23:46:26.221Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 211,
+  "fields": {
+    "good": 29,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-24T23:46:40.852Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 212,
+  "fields": {
+    "good": 29,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-24T23:46:48.010Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 213,
+  "fields": {
+    "good": 88,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-11-24T23:48:52.892Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 214,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-11-24T23:51:28.173Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 215,
+  "fields": {
+    "good": 29,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-11-24T23:53:23.669Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 216,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-25T18:47:47.523Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 217,
+  "fields": {
+    "good": 10,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-11-25T19:18:03.945Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 218,
+  "fields": {
+    "good": 9,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-25T19:29:03.948Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 219,
+  "fields": {
+    "good": 21,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-11-30T20:01:57.159Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 220,
+  "fields": {
+    "good": 97,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-30T20:02:29.583Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 221,
+  "fields": {
+    "good": 21,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-30T20:03:14.240Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 222,
+  "fields": {
+    "good": 98,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-11-30T20:09:52.254Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 223,
+  "fields": {
+    "good": 21,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-11-30T20:10:18.327Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 224,
+  "fields": {
+    "good": 99,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-30T20:12:31.390Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 225,
+  "fields": {
+    "good": 29,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-11-30T20:23:40.894Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 226,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-11-30T20:29:59.227Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 227,
+  "fields": {
+    "good": 100,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-30T20:44:57.779Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 228,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-30T20:45:15.253Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 229,
+  "fields": {
+    "good": 101,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-11-30T20:56:58.935Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 230,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-11-30T21:08:22.594Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 231,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-30T21:11:38.075Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 232,
+  "fields": {
+    "good": 29,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-11-30T21:17:34.562Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 233,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-30T21:43:15.854Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 234,
+  "fields": {
+    "good": 29,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-11-30T21:44:44.862Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 235,
+  "fields": {
+    "good": 104,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-30T21:47:56.899Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 236,
+  "fields": {
+    "good": 99,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-30T21:48:11.743Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 237,
+  "fields": {
+    "good": 105,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-11-30T21:52:29.226Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 238,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-11-30T21:52:44.653Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 239,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-11-30T21:53:00.912Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 240,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-11-30T21:53:09.815Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 241,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-11-30T21:59:57.304Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 242,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-11-30T22:05:03.431Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 243,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-11-30T22:08:03.388Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 244,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-11-30T22:08:55.503Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 245,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-11-30T22:09:34.777Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 246,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-11-30T22:12:59.809Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 247,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-11-30T22:16:42.839Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 248,
+  "fields": {
+    "good": 95,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-11-30T22:22:12.561Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 249,
+  "fields": {
+    "good": 106,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-12-15T21:07:22.380Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 250,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-12-15T21:07:54.955Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 251,
+  "fields": {
+    "good": 107,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T21:09:20.209Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 252,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T21:09:36.830Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 253,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-12-15T21:21:08.569Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 254,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-12-15T21:21:54.476Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 255,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-12-15T21:24:22.538Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 256,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-12-15T21:26:20.774Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 257,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-12-15T21:26:36.999Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 258,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-12-15T21:26:56.687Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 259,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-12-15T21:27:03.805Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 260,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 373,
+    "date": "2022-12-15T21:27:16.968Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 261,
+  "fields": {
+    "good": 95,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-12-15T21:27:38.787Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 262,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-12-15T21:27:48.853Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 263,
+  "fields": {
+    "good": 21,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-12-15T21:28:01.485Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 264,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-12-15T21:28:15.497Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 265,
+  "fields": {
+    "good": 109,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-12-15T21:29:26.485Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 266,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-12-15T21:29:49.596Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 267,
+  "fields": {
+    "good": 95,
+    "quantity": 1,
+    "student": 411,
+    "date": "2022-12-15T21:30:07.619Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 268,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 411,
+    "date": "2022-12-15T21:30:14.646Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 269,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-12-15T21:30:24.053Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 270,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-12-15T21:30:33.587Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 271,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-12-15T21:31:20.155Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 272,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-12-15T21:32:33.277Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 273,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-12-15T21:35:40.105Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 274,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-12-15T21:36:11.469Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 275,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 363,
+    "date": "2022-12-15T21:46:37.435Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 276,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-12-15T21:47:50.826Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 277,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 334,
+    "date": "2022-12-15T21:47:57.719Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 278,
+  "fields": {
+    "good": 110,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-12-15T21:51:40.193Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 279,
+  "fields": {
+    "good": 108,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-12-15T21:51:59.731Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 280,
+  "fields": {
+    "good": 108,
+    "quantity": 1,
+    "student": 370,
+    "date": "2022-12-15T21:52:07.699Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 281,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-12-15T21:53:43.994Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 282,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T21:55:30.619Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 283,
+  "fields": {
+    "good": 56,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T21:56:25.923Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 284,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-12-15T21:59:31.860Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 285,
+  "fields": {
+    "good": 111,
+    "quantity": 1,
+    "student": 306,
+    "date": "2022-12-15T22:05:04.610Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 286,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 306,
+    "date": "2022-12-15T22:05:40.958Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 287,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-12-15T22:08:14.147Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 288,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-12-15T22:08:27.653Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 289,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-12-15T22:12:36.789Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 290,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-12-15T22:22:09.846Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 291,
+  "fields": {
+    "good": 1,
+    "quantity": 1,
+    "student": 320,
+    "date": "2022-12-15T22:22:56.154Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 292,
+  "fields": {
+    "good": 95,
+    "quantity": 1,
+    "student": 373,
+    "date": "2022-12-15T22:24:07.266Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 293,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-12-15T22:32:20.487Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 294,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-12-15T22:33:03.379Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 295,
+  "fields": {
+    "good": 99,
+    "quantity": 1,
+    "student": 306,
+    "date": "2022-12-15T22:36:29.354Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 296,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 309,
+    "date": "2022-12-15T22:37:06.692Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 297,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T22:42:27.877Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 298,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T22:42:38.005Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 299,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 316,
+    "date": "2022-12-15T22:46:08.739Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 300,
+  "fields": {
+    "good": 112,
+    "quantity": 1,
+    "student": 402,
+    "date": "2022-12-15T22:48:44.297Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 301,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-12-15T22:49:20.554Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 302,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-12-15T22:49:30.861Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 303,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-12-15T22:49:43.518Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 304,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-12-15T22:50:18.711Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 305,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-12-15T22:50:26.958Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 306,
+  "fields": {
+    "good": 113,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-12-15T22:51:13.474Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 307,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-12-15T22:51:29.306Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 308,
+  "fields": {
+    "good": 114,
+    "quantity": 1,
+    "student": 459,
+    "date": "2022-12-15T22:52:33.436Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 309,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-12-15T23:01:21.024Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 310,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 471,
+    "date": "2022-12-15T23:01:28.187Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 311,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T23:02:25.362Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 312,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-12-15T23:16:00.924Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 313,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T23:17:17.489Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 314,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 393,
+    "date": "2022-12-15T23:31:20.624Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 315,
+  "fields": {
+    "good": 95,
+    "quantity": 1,
+    "student": 306,
+    "date": "2022-12-15T23:35:41.100Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 316,
+  "fields": {
+    "good": 95,
+    "quantity": 1,
+    "student": 306,
+    "date": "2022-12-15T23:35:50.640Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 317,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 428,
+    "date": "2022-12-15T23:54:35.077Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 318,
+  "fields": {
+    "good": 48,
+    "quantity": 1,
+    "student": 444,
+    "date": "2022-12-15T23:55:27.751Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 319,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-12-16T10:15:03.881Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 320,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-12-16T10:15:15.062Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 321,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-12-16T10:15:25.143Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 322,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-12-16T10:15:36.877Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 323,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-12-16T10:15:50.674Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 324,
+  "fields": {
+    "good": 19,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-12-16T10:15:57.853Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 325,
+  "fields": {
+    "good": 13,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-12-16T10:16:50.755Z"
+  }
+},
+{
+  "model": "trade.transaction",
+  "pk": 326,
+  "fields": {
+    "good": 34,
+    "quantity": 1,
+    "student": 405,
+    "date": "2022-12-16T10:17:46.658Z"
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 1,
+  "fields": {
+    "student": 363,
+    "club": 4,
+    "manage_admins": true,
+    "manage_goods": true,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 2,
+  "fields": {
+    "student": 402,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": false,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 3,
+  "fields": {
+    "student": 316,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": true,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 4,
+  "fields": {
+    "student": 471,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": true,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 5,
+  "fields": {
+    "student": 306,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": true,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 6,
+  "fields": {
+    "student": 405,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": true,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 7,
+  "fields": {
+    "student": 428,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": false,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 8,
+  "fields": {
+    "student": 320,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": false,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 9,
+  "fields": {
+    "student": 370,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": false,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 10,
+  "fields": {
+    "student": 459,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": false,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 11,
+  "fields": {
+    "student": 393,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": false,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 12,
+  "fields": {
+    "student": 309,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": false,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "trade.tradeadmin",
+  "pk": 13,
+  "fields": {
+    "student": 444,
+    "club": 4,
+    "manage_admins": false,
+    "manage_goods": false,
+    "manage_transactions": true,
+    "manage_credits": true
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 1,
+  "fields": {
+    "degree": 7,
+    "volume": 250
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 9,
+  "fields": {
+    "degree": 8,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 10,
+  "fields": {
+    "degree": 8,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 12,
+  "fields": {
+    "degree": 8,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 13,
+  "fields": {
+    "degree": 6,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 14,
+  "fields": {
+    "degree": 10,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 15,
+  "fields": {
+    "degree": 8,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 16,
+  "fields": {
+    "degree": 10,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 17,
+  "fields": {
+    "degree": 12,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 18,
+  "fields": {
+    "degree": 8,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 19,
+  "fields": {
+    "degree": 5,
+    "volume": 500
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 21,
+  "fields": {
+    "degree": 8,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 24,
+  "fields": {
+    "degree": 6,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 25,
+  "fields": {
+    "degree": 4,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 27,
+  "fields": {
+    "degree": 10,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 28,
+  "fields": {
+    "degree": 3,
+    "volume": 750
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 29,
+  "fields": {
+    "degree": 10,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 30,
+  "fields": {
+    "degree": 5,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 34,
+  "fields": {
+    "degree": 5,
+    "volume": 500
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 35,
+  "fields": {
+    "degree": 5,
+    "volume": 500
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 36,
+  "fields": {
+    "degree": 5,
+    "volume": 25
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 48,
+  "fields": {
+    "degree": 10,
+    "volume": 500
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 56,
+  "fields": {
+    "degree": 5,
+    "volume": 330
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 87,
+  "fields": {
+    "degree": 0,
+    "volume": 25
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 88,
+  "fields": {
+    "degree": 5,
+    "volume": 500
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 95,
+  "fields": {
+    "degree": 4,
+    "volume": 250
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 99,
+  "fields": {
+    "degree": 5,
+    "volume": 500
+  }
+},
+{
+  "model": "pochtron.alcohol",
+  "pk": 108,
+  "fields": {
+    "degree": 8,
+    "volume": 33
+  }
+}
+]

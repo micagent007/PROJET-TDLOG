@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{{url_for('static', filename='style1.css')}}" />
+        <title>Recommandation</title>
+        <link rel="icon" href="{{url_for('static', filename='images/logo.jpg')}}">
+    </head>
+    <body>
+        <header>
+            <div class="block">
+                <div>
+                    <p class="head_box">Recommandation</p> 
+                </div>
+            </div>
+        </header>
+        <section>
+            <h3 class="centre">
+                <a href="accueil" class="lobby_button">RETOUR À L'ACCEUIL</a>
+            </h3>
+        </section>
+        <div class="block">
+            <div class="reco">
+                Vous avez été un client régulier ! Nous avons donc analysé toutes vos consommations afin de vous simplifier une grande mission:
+                <br />
+                Choisir pour vous ! En effet, on sait que le choix est une étape difficile!
+            </div>
+        </div>
+
+        <h2>
+            <div class="block">
+                <div class="reco">
+                    Bière recommandée : {{beers.get_name()}}
+                <img src="{{url_for('static', filename=beers.get_image())}}" alt="recommendation" class="imageflottanteright">
+                </div>
+            </div> 
+        </h2>
+       
+        <div class="block">
+            <div class="reco">
+                Voici quelques informations qui pourraient vous intéresser : 
+                <br />
+                <br />
+                <ul class="seconde">
+                    <li><a href="">Historique du prix du produit recommandé</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </body>
+</html>
