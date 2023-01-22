@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Cuvee des trolls",
+        "img":"img_bieres/cuvee.png",
+        "price": 1.7,
+        "description":""
+    },
+    {
+        "name":"Chimay Triple",
+        "img":"img_bieres/chimay.png",
+        "price": 2.2,
+        "description":""
+    },
+    {
+        "name":"Super 8",
+        "img":"img_bieres/super8.png",
+        "price":1.9,
+        "description":""
+    },
+    {
+        "name":"3 monts",
+        "img":"img_bieres/3monts.png",
+        "price":2.1,
+        "description":""
+    },
+    {
+        "name":"Gulden Spoor",
+        "img":"img_bieres/gulden.png",
+        "price":2.3,
+        "description":""
+    },
+    {
+        "name":"Malheur 12",
+        "img":"img_bieres/malheur.png",
+        "price":2.9,
+        "description":""
+    },
+    {
+        "name":"Triple d'Anvers",
+        "img":"img_bieres/anv.png",
+        "price":2.4,
+        "description":""
+    },
+    {
+        "name":"Kro",
+        "img":"img_bieres/kro.png",
+        "price":1,
+        "description":""
+    }
+]
