@@ -59,16 +59,16 @@ tab.draw_curve(beer_all)
 for beer in beers:
     tab.draw_curve(beer)'''
 
-for k in range(300):
+for k in range(20):
 
     consos=fonction_de_conso(beer_load.beer_list,beer_load.tab,init_price)
     beer_load.tab.adjst_conso(consos)
     beer_load.tab.model_function()
 
 
-beer_load.tab.draw_curve("all")
+'''beer_load.tab.draw_curve("all")
 for beer in beer_load.beer_list:
-    beer_load.tab.draw_curve(beer.get_name())
+    beer_load.tab.draw_curve(beer.get_name())'''
 
 
 
