@@ -7,7 +7,12 @@ for i in range(len(beer_load.beer_list)):
     init_price[beer_load.beer_list[i].get_name()]=beer_load.beer_list[i].get_price()
 
             
-        
+#----------------------------------------------------------
+def maj(beers,tab,init_p,consos,beer_name):
+    consos[beer_name]+=1
+    for beer in beers:
+        consos[beer.get_name()]=int(rd.randint(0,5)/tab.prices[beer.get_name()][tab.iter]*init_p[beer.get_name()]+0.5)
+    return
 
 
 
@@ -61,7 +66,10 @@ for beer in beers:
 
 for k in range(300):
 
-    consos=fonction_de_conso(beer_load.beer_list,beer_load.tab,init_price)
+    consos={}
+    for beer in beer_load.beer_list:
+        consos[beer.get_name()]
+    
     beer_load.tab.adjst_conso(consos)
     beer_load.tab.model_function()
 
@@ -69,6 +77,7 @@ for k in range(300):
 beer_load.tab.draw_curve("all")
 for beer in beer_load.beer_list:
     beer_load.tab.draw_curve(beer.get_name())
+    beer.show_img()
 
 
 
