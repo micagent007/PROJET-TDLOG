@@ -68,7 +68,12 @@ for k in range(300):
 
     consos={}
     for beer in beer_load.beer_list:
-        consos[beer.get_name()]
+        consos[beer.get_name()]=0
+
+    while(True):
+        #maj(beer_load.beer_list,beer_load.tab,init_price,consos,"nomdebière")
+        pass
+
     
     beer_load.tab.adjst_conso(consos)
     beer_load.tab.model_function()
