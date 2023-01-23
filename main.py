@@ -6,9 +6,12 @@ import beer_load
 from beer_load import *
 from application import *
 from recommandation import *
+import time
 
 app = Flask(__name__,static_folder='static')
 app.debug = True
+
+n = 300
 
 @app.route('/courbes', methods=['GET', 'POST'])
 def courbes():
@@ -19,20 +22,21 @@ def courbes():
         beer_load.tab.adjst_conso(conso)
         beer_load.tab.model_function()
         tab.draw_curve(selected_plot)
-    return render_template('courbes.html', beers=beer_load.beer_list,selected_plot=selected_plot)
+    return render_template('courbes.html', beers=beer_load.beer_list,selected_plot=selected_plot,time_left=n)
 
 @app.route('/accueil')
 def index():
-    return render_template('accueil.html')
+    return render_template('accueil.html',time_left=n)
 
 @app.route('/recommandation')
 def recommandation_display():
     beer=beer_load.beer_list[recommandation(306)%tab.nb_beers]
-    return render_template('recommandation.html', beers=beer)
+    return render_template('recommandation.html', beers=beer,time_left=n)
+
 
 @app.route('/tableau')
 def table_of_price():
-    return render_template('tableau.html', beers=beer_load.beer_list)
+    return render_template('tableau.html', beers=beer_load.beer_list,time_left=n)
 
 
 

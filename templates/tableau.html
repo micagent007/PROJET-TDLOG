@@ -5,6 +5,20 @@
         <link rel="stylesheet" href="{{url_for('static', filename='style1.css')}}">
         <title>Foyer Bourse</title>
         <link rel="icon" href="{{url_for('static', filename='images/logo.jpg')}}">
+        <script>
+            
+            var timeleft = localStorage.getItem("time_left") || {{time_left}};
+            var downloadTimer = setInterval(function(){
+                timeleft--;
+                var seconds = timeleft % 60;
+                var minutes = Math.floor(timeleft / 60);
+                document.getElementById("countdown").textContent = minutes + " minutes " + seconds + " secondes";
+                localStorage.setItem("time_left", timeleft);
+                if(timeleft <= 0)
+                    clearInterval(downloadTimer);
+            },1000);
+            localStorage.clear()
+        </script>   
     </head>
     <body>
         <header>
@@ -22,7 +36,7 @@
         <section>
             <div class="block">
                 <div>
-                    <h2 class="update">Prochaine mise à jour des prix dans :</h2>
+                    <h2 class="update">Prochaine mise à jour des prix dans : <div id="countdown"></div></h2>
                 </div>
             </div>
         </section>

@@ -59,7 +59,7 @@ tab.draw_curve(beer_all)
 for beer in beers:
     tab.draw_curve(beer)'''
 
-for k in range(20):
+for k in range(2):
 
     consos=fonction_de_conso(beer_load.beer_list,beer_load.tab,init_price)
     beer_load.tab.adjst_conso(consos)

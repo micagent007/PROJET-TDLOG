@@ -1,5 +1,6 @@
 import json
 import model
+import time
 
 
 with open('biere_liste.json') as b_l:
