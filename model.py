@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+import plotly.graph_objects as go
 
 
 #-------------------------------------------------------------------------------------------------------
@@ -35,7 +36,7 @@ class beer:
 
 #-------------------------------------------------------------------------------------------------------
 
-colors=['red','green','blue','c','m','yellow','black','orange']
+colors=['red', 'green' , 'blue', 'cyan', 'magenta', 'yellow', 'black',"purple", "pink", "silver", "gray", "brown", "maroon", "navy", "aqua", "fuchsia", "lime", "olive", "teal", "indigo", "coral", "turquoise", "violet", "peru"]
 
 
 
@@ -97,29 +98,21 @@ class price_table:
 
     
 
-    
     def draw_curves_all(self):
-        x=[i for i in range(self.iter+1)] #ligne de repere temporel
+        x = [i for i in range(self.iter+1)] # ligne de repère temporel
+        data = []
         for beer in self.beers:
-            beer_departure=0
-            while self.prices[beer.get_name()][beer_departure]==None:
-                #on definie quand commencer la courbe
-                beer_departure+=1
-                
-            plt.plot(x[beer_departure:],
-                     self.prices[beer.get_name()][beer_departure:],
-                     self.beers_colors[beer.get_name()],
-                     label=beer.get_name())
-            
-        plt.ylim([0,self.lim +1])
-        plt.legend()
-        plt.show()
-        #plt.savefig("all_beers")
+            beer_departure = 0
+            while self.prices[beer.get_name()][beer_departure] == None:
+                # on définit quand commencer la courbe
+                beer_departure += 1
+            trace = go.Scatter(x=x[beer_departure:], y=self.prices[beer.get_name()][beer_departure:], name=beer.get_name(), line=dict(color=self.beers_colors[beer.get_name()]))
+            data.append(trace)
+        layout = go.Layout(yaxis=dict(range=[0, self.lim+1]), showlegend=True)
+        fig = go.Figure(data=data, layout=layout)
+        # fig.show()
+        fig.write_image('static/images_courbes/all.png')
         return
-    
-    #color='r' ou autre avc self.beer_colors a rajouter (faire en sorte qu elles aient ttes des couleurs diff
-    # for e in dict e est la clef
-    # plt.plot(x,y,color)
 
     def draw_curve(self,name_beer):
         if name_beer=="all":
@@ -130,16 +123,13 @@ class price_table:
             while self.prices[name_beer][beer_departure]==None:
                 #on definie quand commencer la courbe
                 beer_departure+=1
-            plt.plot(x[beer_departure:],
-                     self.prices[name_beer][beer_departure:],
-                     self.beers_colors[name_beer])
-            plt.ylim([0,self.lim +1])
-            plt.xlabel(name_beer+f"  {self.prices[name_beer][self.iter]} €")
-                        
-            plt.show()
-            #mpld3.show()
-        #plt.savefig(beer.get_name())
+            fig = go.Figure()
+            fig.add_trace(go.Scatter(x=x[beer_departure:], y=self.prices[name_beer][beer_departure:], mode='lines+markers', name=name_beer, line=dict(color=self.beers_colors[name_beer])))
+            fig.update_layout(title=name_beer+f"  {self.prices[name_beer][self.iter]} €", yaxis=dict(range=[0, self.lim + 1]))
+            fig.write_image("static/images_courbes/"+name_beer+'.png')
         return
+
+
 
 #-------------------------------------------------------------------------------------------------------
 
@@ -173,7 +163,48 @@ class price_table:
 
 #-------------------------------------------------------------------------------------------------------
 
+''' def draw_curves_all(self):
+      x=[i for i in range(self.iter+1)] #ligne de repere temporel
+      for beer in self.beers:
+          beer_departure=0
+          while self.prices[beer.get_name()][beer_departure]==None:
+              #on definie quand commencer la courbe
+              beer_departure+=1
 
+          plt.plot(x[beer_departure:],
+                   self.prices[beer.get_name()][beer_departure:],
+                   self.beers_colors[beer.get_name()],
+                   label=beer.get_name())
+
+      plt.ylim([0,self.lim +1])
+      plt.legend()
+      #plt.show()
+      plt.savefig('static/images_courbes/all.png')
+      return
+
+  #color='r' ou autre avc self.beer_colors a rajouter (faire en sorte qu elles aient ttes des couleurs diff
+  # for e in dict e est la clef
+  # plt.plot(x,y,color)
+
+  def draw_curve(self,name_beer):
+      if name_beer=="all":
+          self.draw_curves_all()
+      else :
+          x=[i for i in range(self.iter+1)] #ligne de repere temporel
+          beer_departure=0
+          while self.prices[name_beer][beer_departure]==None:
+              #on definie quand commencer la courbe
+              beer_departure+=1
+          plt.plot(x[beer_departure:],
+                   self.prices[name_beer][beer_departure:],
+                   self.beers_colors[name_beer])
+          plt.ylim([0,self.lim +1])
+          plt.xlabel(name_beer+f"  {self.prices[name_beer][self.iter]} €")
+
+          #plt.show()
+          #mpld3.show()
+      plt.savefig('static/images_courbes/'+name_beer+'.png')
+      return'''
 
 
 

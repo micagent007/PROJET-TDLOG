@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{{url_for('static', filename='style1.css')}}">
+        <title>Foyer Bourse</title>
+        <link rel="icon" href="{{url_for('static', filename='images/logo.jpg')}}">
+    </head>
+
+    <body>
+        <header>
+            <div class="block">
+                <div>
+                    <p class="head_box">Courbes des prix</p> 
+                </div>
+            </div>
+        </header>
+        <section>
+            <h3 class="centre">
+                <a href="accueil" class="lobby_button">RETOUR À L'ACCEUIL</a>
+            </h3>
+        </section>
+        <form method="POST" action="courbes" class="block">
+            <select name="selected_plot">
+                <option value="all">toutes les bières</option>
+              {% for beer in beers %}
+                <option value="{{ beer.get_name() }}">{{ beer.get_name() }}, {{beer.get_price()}}</option>
+              {% endfor %}
+            </select>
+            <input type="submit" value="Afficher la courbe">
+        </form>
+        <h1 class="block">
+            <img src="{{url_for('static', filename='images_courbes/'+selected_plot+'.png')}}" alt="Courbe de {{ selected_plot }}">
+        </h1>
+    </body>
+</html>

@@ -2,9 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="{{url_for('static', filename='style1.css')}}">
         <title>Foyer Bourse</title>
-        <link rel="icon" href="images/logo.jpg">
+        <link rel="icon" href="{{url_for('static', filename='images/logo.jpg')}}">
     </head>
     <body>
         <header>
@@ -16,7 +16,7 @@
         </header>
         <section>
             <h3 class="centre">
-                <a href="accueil.html" class="lobby_button">RETOUR À L'ACCEUIL</a>
+                <a href="accueil" class="lobby_button">RETOUR À L'ACCEUIL</a>
             </h3>
         </section>
         <section>
@@ -34,7 +34,7 @@
             </tr>
             {% for beer in beers %}
             <tr>
-               <th> {{ beer.get_name() }} <img class="imageflottanteright" alt="biere" src="{{ beer.get_image() }}"/></th>
+               <th> {{ beer.get_name() }} <img class="imageflottanteright" alt="biere" src="{{url_for('static', filename=beer.get_image())}}"/></th>
                <th> {{ beer.get_descr() }}</th>
                <th> {{ beer.get_price() }}</th>
             </tr>

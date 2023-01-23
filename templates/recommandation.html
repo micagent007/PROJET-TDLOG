@@ -2,8 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style1.css" />
+        <link rel="stylesheet" href="{{url_for('static', filename='style1.css')}}" />
         <title>Recommandation</title>
+        <link rel="icon" href="{{url_for('static', filename='images/logo.jpg')}}">
     </head>
     <body>
         <header>
@@ -15,7 +16,7 @@
         </header>
         <section>
             <h3 class="centre">
-                <a href="accueil.html" class="lobby_button">RETOUR À L'ACCEUIL</a>
+                <a href="accueil" class="lobby_button">RETOUR À L'ACCEUIL</a>
             </h3>
         </section>
         <div class="block">
@@ -29,8 +30,8 @@
         <h2>
             <div class="block">
                 <div class="reco">
-                    Bière recommandée :
-                <img src="images/beer2.png" alt="recommendation" class="imageflottanteright">
+                    Bière recommandée : {{beers.get_name()}}
+                <img src="{{url_for('static', filename=beers.get_image())}}" alt="recommendation" class="imageflottanteright">
                 </div>
             </div> 
         </h2>

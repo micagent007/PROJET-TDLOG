@@ -64,7 +64,7 @@ tab.draw_curve(beer_all)
 for beer in beers:
     tab.draw_curve(beer)'''
 
-for k in range(300):
+for k in range(20):
 
     consos={}
     for beer in beer_load.beer_list:
@@ -79,10 +79,6 @@ for k in range(300):
     beer_load.tab.model_function()
 
 
-beer_load.tab.draw_curve("all")
-for beer in beer_load.beer_list:
-    beer_load.tab.draw_curve(beer.get_name())
-    beer.show_img()
 
 
 
