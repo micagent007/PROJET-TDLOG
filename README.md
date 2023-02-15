@@ -8,4 +8,4 @@ vous êtes considéré comme un utilisateur unique, malheureusement il n'y a pou
 Catalogue vous permet de voir le prix des boissons, ainsi qu'un formulaire qui permet d'en choisir une.
 Lorsque le compte à rebours est terminé toutes les boissons choisies sont comptabilisées dans l'évolution des prix (il faut recharger la page)
 la page courbe permet d'afficher les courbes de différentes boissons
-La page recommandation affiche la recommandation selon vos consommations, cependant comme il n'y a pas d'autre utilisateurs, l'algorithme n'évolue pas connaissant le modèle de comparaison utilisé, ainsi on a mis la proposition d'un identifiant quelconque, cependant celui-ci n'évolue alors pas en fonction de vos consommations
+La page recommandation affiche la recommandation selon vos consommations, cependant comme il n'y a pas d'autre utilisateurs, l'algorithme n'évolue pas connaissant le modèle de comparaison utilisé, ainsi on a mis la recommandation d'un identifiant quelconque, cependant celui-ci n'évolue alors pas en fonction de vos consommations
