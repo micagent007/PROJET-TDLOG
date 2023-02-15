@@ -3,31 +3,31 @@
         "name": "Cuvee des trolls",
         "img":"img_bieres/cuvee.png",
         "price": 1.7,
-        "description":"Bière blonde belge goûtue"
+        "description":"Biere blonde belge goutue"
     },
     {
         "name":"Chimay Triple",
         "img":"img_bieres/chimay.png",
         "price": 2.2,
-        "description":"bière belge de fort caractère robe sombre et arôme d'alcool"
+        "description":"biere belge de fort caractere robe sombre et arome d'alcool"
     },
     {
         "name":"Super 8",
         "img":"img_bieres/super8.png",
         "price":1.9,
-        "description":"bière blanche légère arômes d'agrumes au houblon fruité"
+        "description":"biere blanche legere aromes d'agrumes au houblon fruite"
     },
     {
         "name":"3 monts",
         "img":"img_bieres/3monts.png",
         "price":2.1,
-        "description":"bière belge blonde forte"
+        "description":"biere belge blonde forte"
     },
     {
         "name":"Gulden Spoor",
         "img":"img_bieres/gulden.png",
         "price":2.3,
-        "description":"bière brune belge forte à la robe sombre et aux notes de café/caramel"
+        "description":"biere brune belge forte à la robe sombre et aux notes de cafe/caramel"
     },
     {
         "name":"Malheur 12",

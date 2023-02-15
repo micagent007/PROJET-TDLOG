@@ -6,19 +6,30 @@
         <title>Foyer Bourse</title>
         <link rel="icon" href="{{url_for('static', filename='images/logo.jpg')}}">
         <script>
-            
             var timeleft = localStorage.getItem("time_left") || {{time_left}};
-            var downloadTimer = setInterval(function(){
-                timeleft--;
-                var seconds = timeleft % 60;
-                var minutes = Math.floor(timeleft / 60);
-                document.getElementById("countdown").textContent = minutes + " minutes " + seconds + " secondes";
-                localStorage.setItem("time_left", timeleft);
-                if(timeleft <= 0)
-                    clearInterval(downloadTimer);
-            },1000);
-            localStorage.clear()
-        </script>   
+
+            function startTimer() {
+                var downloadTimer = setInterval(function(){
+                    timeleft--;
+                    var seconds = timeleft % 60;
+                    var minutes = Math.floor(timeleft / 60);
+                    document.getElementById("countdown").textContent = minutes + " minutes " + seconds + " secondes";
+                    localStorage.setItem("time_left", timeleft);
+                    if(timeleft <= 0) {
+                        clearInterval(downloadTimer);
+                        timeleft = {{time_left}};
+                        fetch('/countdown-finished')
+                        .then(response => response.text())
+                        .then(data => {
+                            console.log(data);
+                        });
+                        startTimer();
+                    }
+                },1000);
+                localStorage.clear();
+            }
+            startTimer();
+        </script>  
     </head>
     <body>
         <header>
@@ -40,6 +51,14 @@
                 </div>
             </div>
         </section>
+        <form method="POST" action="tableau" class="block">
+            <select name="selected_plot">
+              {% for beer in beers %}
+                <option value="{{ beer.get_name() }}">{{ beer.get_name() }}, {{beer.get_price()}}</option>
+              {% endfor %}
+            </select>
+            <input type="submit" value="je choisis cette bière">
+        </form>
         <table class="block">
             <tr>
                 <th>Bière</th>

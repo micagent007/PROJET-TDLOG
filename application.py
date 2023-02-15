@@ -64,7 +64,7 @@ tab.draw_curve(beer_all)
 for beer in beers:
     tab.draw_curve(beer)'''
 
-for k in range(2):
+'''for k in range(2):
 
     consos={}
     for beer in beer_load.beer_list:
@@ -76,7 +76,7 @@ for k in range(2):
 
     
     beer_load.tab.adjst_conso(consos)
-    beer_load.tab.model_function()
+    beer_load.tab.model_function()'''
 
 
 
